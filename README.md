@@ -38,7 +38,7 @@ Model: sequential
       
 I Trained it with Input Images (that were single characters) and after about 10 epochs , the acurasy get to 1 (100%)
 
-# Building it up togather
+# Building it up together
 So i did all of it , now it was the time to gatherup all the parts into one single code.
 so in "captchatotext.py" i used all the steps and simply by typing : readit() , it would download a new captcha from the university's login page and breaks it and shows the captchas text to me.
 
