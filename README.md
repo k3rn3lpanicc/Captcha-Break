@@ -1,7 +1,7 @@
 # Captcha-Break
 I Found Security ISSUES in our university's login page and tried to break it's captcha using Convolutional Neural Networks
 
-# How does out login page work ?
+# How does login page work ?
 Well i keep tracking the requests wich were sent from my pc to university's login page and noticed that it used a cookie named : JSESSIONID to keep track of user session.
 #The Captcha Generator
 Each Captcha is a 5 character word that uses only english uppercase alphabet. And while the JSESSIONID remains same , the generated captcha will be same text with different noise and rotations on it.
