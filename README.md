@@ -16,7 +16,7 @@ With this method i gathered aroun 2000 images that were labeled.
 I used Opencv library in python to do some preprocessing before using CNN . First I did 2 thresholds on input captcha image (a TOZERO and a BINARY_INV) , then i used median blur to remove some noise from it.
 after that i turned it into black and white picture and after that used median blur to denoise it once more. then i used a delation to make noise lines thiner to use openning on them and remove them.
 after opening we do a closing to make it back to it's natural size and we do a canny edge detection on them and inverse the output image . 
-The out put of this whole process is something like this : 
+The out put of this whole process is something like this: 
 Before Pre-Processing : ![Captchas before Preprocessing](https://dl.dropboxusercontent.com/s/t1idg5igqjb810i/0B222A9756B5822F495B04F93A76C049_22_UHMXM.jpg?dl=0)
 After Pre-Processing : ![After](https://dl.dropboxusercontent.com/s/dudesuy0i6pd7fn/0A11D1818BFD488783C04974D9019DCE_2_RPRWW.jpg?dl=0)
 
