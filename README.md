@@ -1,5 +1,5 @@
 # Captcha-Break
-I Found Security ISSUES in our university's login page and tried to break it's captcha using Convolutional Neural Networks
+Using AI to break University's Login page captcha.
 
 # How does login page work ?
 Well i keep tracking the requests wich were sent from my pc to university's login page and noticed that it used a cookie named : JSESSIONID to keep track of user session.
