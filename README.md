@@ -44,3 +44,6 @@ So i did all of it , now it was the time to gatherup all the parts into one sing
 so in "captchatotext.py" i used all the steps and simply by typing : readit() , it would download a new captcha from the university's login page and breaks it and shows the captchas text to me.
 
 Picture of readit() function : ![Working Fine](https://dl.dropboxusercontent.com/s/hsjjrex9usx9y7b/capt.jpg?dl=0)
+
+
+! The model file has been removed (you can train it yourself if you want!)
